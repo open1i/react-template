@@ -1,0 +1,30 @@
+# 依赖目录
+node_modules
+dist
+build
+
+# 包管理文件
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 构建输出
+dist
+coverage
+
+# 其他
+.vscode
+.idea
+.git
+.DS_Store
+
+# 自动生成的文件
+*.d.ts
+*.min.js
+*.min.css
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
